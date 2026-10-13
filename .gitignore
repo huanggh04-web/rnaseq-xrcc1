@@ -1,0 +1,83 @@
+# ==========================================================
+#  RNA-seq 项目 .gitignore
+#  原则：只提交「代码 + 配置 + 小型结果表」
+#        绝不提交「原始数据 + 参考基因组 + 比对文件」
+# ==========================================================
+
+# ---------- 1. 原始测序数据 ----------
+rawdata/
+Rawdata/
+*.fq
+*.fq.gz
+*.fastq
+*.fastq.gz
+*.sra
+
+# ---------- 2. 参考基因组与索引 ----------
+resources/reference/
+refs/
+*.fa
+*.fasta
+*.fai
+*.gtf
+*.gtf.gz
+*.gff
+*.gff3
+*.bt2
+*.ebwt
+star_index/
+salmon_index/
+
+# ---------- 3. 比对结果（单个 2GB+，绝对不能传）----------
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+# ---------- 4. 中间产物 ----------
+results/fastp/
+results/qc/
+*.tmp
+
+# ---------- 5. Snakemake 运行状态 ----------
+.snakemake/
+snakemake-*.log
+*.snakemake
+
+# ---------- 6. conda / 环境 ----------
+envs/*.lock
+*.conda
+conda-env/
+
+# ---------- 7. Python / R ----------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata/
+*.Rproj
+
+# ---------- 8. 日志与临时文件 ----------
+*.log
+nohup.out
+project_structure.md
+project_tree.txt
+.~*
+*~
+*.swp
+*.bak
+
+# ---------- 9. 系统文件 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 10. 压缩包 ----------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.SJ.out.tab

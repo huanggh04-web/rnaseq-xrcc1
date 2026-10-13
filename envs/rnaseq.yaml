@@ -1,0 +1,20 @@
+name: rnaseq
+channels:
+  - nodefaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - snakemake-minimal>=8
+  - fastqc
+  - fastp
+  - star
+  - samtools
+  - subread
+  - multiqc
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn

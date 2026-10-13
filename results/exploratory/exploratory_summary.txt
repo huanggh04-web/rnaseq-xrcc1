@@ -1,0 +1,12 @@
+Genes after filtering: 14411
+Top variable genes used: 2000
+Samples: 18
+
+PCA explained variance:
+PC1: 0.3978
+PC2: 0.1421
+PC3: 0.1069
+PC4: 0.0722
+PC5: 0.0363
+
+Note: Group labels are not available in this run.

@@ -1,0 +1,39 @@
+# ============================================================
+# RNA-seq workflow configuration
+# ============================================================
+# IMPORTANT:
+# rawdata_dir must be the directory that DIRECTLY contains:
+#   *.R1.raw.fastq.gz
+#   *.R2.raw.fastq.gz
+#
+# Examples:
+#   rawdata_dir: /rawdata
+#   rawdata_dir: /home/mnt1/huanggh/project/rawdata
+rawdata_dir: /home/mnt1/huanggh/rawdata
+
+reference:
+  # GENCODE mouse M36 is based on GRCm39 (mm39).
+  genome_url: https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M36/GRCm39.primary_assembly.genome.fa.gz
+  gtf_url: https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M36/gencode.vM36.annotation.gtf.gz
+  genome: resources/reference/GRCm39.primary_assembly.genome.fa
+  gtf: resources/reference/gencode.vM36.annotation.gtf
+  star_index: resources/reference/star_index
+
+star:
+  # For paired-end 150 bp reads, use read_length - 1 = 149.
+  # For 100 bp reads, change this to 99.
+  sjdbOverhang: 149
+
+featurecounts:
+  # 0 = unstranded
+  # 1 = stranded forward
+  # 2 = stranded reverse
+  # Run the strand_test target first and then set the recommended value.
+  strand: 0
+
+threads:
+  fastqc: 2
+  fastp: 8
+  star_index: 32
+  star_align: 16
+  featurecounts: 16

@@ -1,0 +1,7 @@
+model	tested	padj005	padj005_lfc1
+all18_group_Cent_vs_WT	24650	720	441
+all18_dose_only	24650	1418	241
+all18_group_plus_dose_Cent_vs_WT	24650	36	29
+WT_Cent_group_Cent_vs_WT	23016	2103	737
+WT_Cent_dose_only	23016	1737	306
+WT_Cent_group_plus_dose_Cent_vs_WT	23016	287	165

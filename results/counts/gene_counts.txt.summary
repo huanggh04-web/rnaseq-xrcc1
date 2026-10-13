@@ -1,0 +1,15 @@
+Status	results/alignment/L1MKH0101616-A1.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101617-A2.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101618-A3.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101619-A4.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101620-A5.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101621-A6.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101622-A7.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101623-A8.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101624-A9.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101625-A10.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101626-A11.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101627-A12.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101628-A13.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101629-A14.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101630-A15.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101631-A16.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101632-A17.Aligned.sortedByCoord.out.bam	results/alignment/L1MKH0101633-A18.Aligned.sortedByCoord.out.bam
+Assigned	26875507	28588387	31062649	27116590	27236198	25884047	30599531	29005590	28527712	26541394	31503573	31706054	29822625	27236180	27947814	28143048	29087067	29036689
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	1709	1899	1880	1797	1568	2056	1370	1713	1743	1626	2175	1356	2015	2009	1730	1740	2007	1637
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	4125826	4026716	3220786	3468681	3229415	3629036	3469950	3783027	3753602	3575648	4673960	4328220	3952791	3588840	3773360	3885898	4140845	4135255
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	582659	429304	624308	388439	994017	400112	413069	404214	479963	495926	570922	633419	504307	436991	586634	620173	584392	402532
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	1869780	1980801	2028123	1858640	1899863	1765209	2151711	1943579	1870323	1782041	2043407	2072222	1931082	1870260	1736205	1809986	1854426	1903414
